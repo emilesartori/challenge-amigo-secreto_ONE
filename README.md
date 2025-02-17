@@ -15,6 +15,7 @@ Este repositório contém o projeto **Amigo Secreto**, um desafio de programaç�
 
 A tela inicial solicita que o usuário insira os nomes dos participantes.
 
+![tela inicial amigo secreto](assets/readme.JPG)
 
 ## Realização do Sorteio:
 
