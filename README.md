@@ -27,7 +27,7 @@ O resultado será mostrado na tela, para saber quem você irá presentear.
 
 
 
-
+![sorteio amigo secreto](assets/sorteio.JPG)
 
 
 ## Contribuindo
