@@ -1,0 +1,170 @@
+:root {
+    --color-primary: #59C3C3;
+    --color-secondary: #D8F3DC;
+    --color-tertiary: #A3B18A;
+    --color-button: #3A5A40;
+    --color-button-hover: #2A3C2E;
+    --color-text: #344E41;
+    --color-white: #FFFFFF;
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-primary);
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contêiner de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-text);
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+/* Contêiner dos botões (centralizado e simétrico) */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Botões */
+button {
+    padding: 12px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+}
+
+.button-add:hover {
+    background-color: #8F9C76;
+}
+
+/* Botão de sortear */
+.button-draw {
+    background-color: var(--color-button);
+    color: var(--color-white);
+}
+
+.button-draw img {
+    width: 20px;
+    height: 20px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Botão de reiniciar */
+.button-reset {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+}
+
+.button-reset img {
+    width: 20px;
+    height: 20px;
+}
+
+.button-reset:hover {
+    background-color: #8F9C76;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #3A5A40;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
